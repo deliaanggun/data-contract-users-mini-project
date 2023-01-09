@@ -42,7 +42,6 @@ public class UserServiceImpl implements UserService {
 
     public List<User> getAllUsers() {
         log.info("Fetching all users {}", getUsers());
-        log.warn("Can't load users {} ", getUsers());
         return userRepo.findAll();
     }
 
