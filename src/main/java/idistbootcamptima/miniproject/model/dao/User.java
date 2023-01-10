@@ -57,5 +57,5 @@ public class User {
     private String mpin;
 
     @Column(name = "Saldo")
-    private String balance;
+    private Long balance;
 }
